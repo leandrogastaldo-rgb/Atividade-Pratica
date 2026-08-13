@@ -16,8 +16,8 @@ line-height: 1.5;
 
 /* CABERÇALHO, BANNER E PERFIL */
 
-.cabecalho{
-    background-color: rgb(4, 121, 175);
-    border-bottom: 10px solid #535c5b;
-    padding-bottom: 20px;
-}
+.cabecalho {
+        background-color: #1e293b;
+        border-bottom: 3px solid #38bdf8; /* Linha de destaque azul */
+        padding-bottom: 30px;
+} 
