@@ -19,7 +19,7 @@ line-height: 1.5;
 .cabecalho {
         background-color: #1e293b;
         border-bottom: 3px solid #38bdf8; /* Linha de destaque azul */
-        padding-bottom: 40px;
+        padding-bottom: 30px;
 } 
 
 
@@ -28,7 +28,7 @@ line-height: 1.5;
 /* FOTO DE PERFIL CIRCULAR */
 .img-banner {
          width: 100%; /* Ocupa toda a largura da tela */
-         height: 180px; /* Altura fixa */
+         height: 200px; /* Altura fixa */
          object-fit: cover; /* Impede que a imagem fique esticada ou esmagada */
 }
 
