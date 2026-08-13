@@ -22,8 +22,19 @@ line-height: 1.5;
         padding-bottom: 30px;
 } 
 
+
+
+
+/* FOTO DE PERFIL CIRCULAR */
 .img-banner {
          width: 100%; /* Ocupa toda a largura da tela */
          height: 180px; /* Altura fixa */
          object-fit: cover; /* Impede que a imagem fique esticada ou esmagada */
 }
+
+
+
+/* CONTAINER DE INFORMAÇÕES */
+.perfil-container {
+          text-align: center; /* Centraliza o nome e a biografia */
+          padding: 0 20px;
