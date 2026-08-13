@@ -54,3 +54,16 @@ line-height: 1.5;
           margin-top: -65px; /* Sobe a foto para sobrepor o banner */
           background-color: #1e293b;
 }
+
+
+/* TÍTULO E PARÁGRAFO */
+h1 {
+       color: #38bdf8;
+       margin-top: 12px;
+       font-size: 1.8rem;
+}
+p {
+       color: #94a3b8;
+       font-size: 1rem;
+       margin-top: 4px;
+}  
