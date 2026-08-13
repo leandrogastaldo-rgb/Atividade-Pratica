@@ -38,3 +38,18 @@ line-height: 1.5;
 .perfil-container {
           text-align: center; /* Centraliza o nome e a biografia */
           padding: 0 20px;
+
+
+
+
+
+/* FOTO DE PERFIL CIRCULAR */
+.img-perfil {
+          width: 130px;
+          height: 130px;
+          object-fit: cover;
+          border-radius: 50%; /* O TRUQUE: Transforma o quadrado num círculo perfeito! */
+          border: 4px solid #38bdf8; /* Borda azul em volta da foto */
+          margin-top: -65px; /* Sobe a foto para sobrepor o banner */
+          background-color: #1e293b;
+}
