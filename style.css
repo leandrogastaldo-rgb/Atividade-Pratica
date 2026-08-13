@@ -67,3 +67,16 @@ p {
        font-size: 1rem;
        margin-top: 4px;
 }  
+
+
+/* ==========================================
+   CONTAINER E BOTÕES DE REDES SOCIAIS
+   ========================================== */
+
+/* 1. Alinha os botões lado a lado e centraliza na tela */
+.botoes-container {
+    display: flex;             /* Ativa o Flexbox */
+    justify-content: center;   /* Centraliza os botões horizontalmente */
+    gap: 12px;                 /* Cria um espaço uniforme de 12px entre os botões */
+    margin-top: 16px;          /* Afasta a caixa de botões do texto acima */
+}
