@@ -21,3 +21,9 @@ line-height: 1.5;
         border-bottom: 3px solid #38bdf8; /* Linha de destaque azul */
         padding-bottom: 30px;
 } 
+
+.img-banner {
+         width: 100%; /* Ocupa toda a largura da tela */
+         height: 180px; /* Altura fixa */
+         object-fit: cover; /* Impede que a imagem fique esticada ou esmagada */
+}
