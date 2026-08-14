@@ -70,43 +70,40 @@ p {
 
 
 
-/* ==========================================
-   CONTAINER E BOTÕES DE REDES SOCIAIS
-   ========================================== */
-
 .botoes-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 12px;
     margin-top: 16px;
 }
 
-/* Estilo base dos botões */
-.btn {
+.botoes-container .btn {
     display: inline-block;
-    padding: 8px 20px;
-    border-radius: 6px;
+    padding: 10px 20px;
+    border-radius: 8px;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #ffffff;
-    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 15px;
+    color: white !important;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 /* GitHub */
-.btn-github {
-    background-color: #24292e;
-    border: 1px solid #24292e;
+.botoes-container .btn-github {
+    background-color: #24292f !important;
+    border: 2px solid #24292f !important;
 }
 
 /* LinkedIn */
-.btn-linkedin {
-    background-color: #0a66c2;
-    border: 1px solid #0a66c2;
+.botoes-container .btn-linkedin {
+    background-color: #0a66c2 !important;
+    border: 2px solid #0a66c2 !important;
 }
 
 /* Efeito ao passar o mouse */
-.btn:hover {
-    transform: translateY(-2px);
-    opacity: 0.9;
+.botoes-container .btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
 }
