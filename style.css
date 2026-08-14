@@ -69,6 +69,7 @@ p {
 }  
 
 
+
 /* ==========================================
    CONTAINER E BOTÕES DE REDES SOCIAIS
    ========================================== */
@@ -80,7 +81,6 @@ p {
     gap: 12px;                 /* Cria um espaço uniforme de 12px entre os botões */
     margin-top: 16px;          /* Afasta a caixa de botões do texto acima */
 }
-
 
 /* 2. Estilo base padrão de todos os botões */
 .btn {
@@ -96,8 +96,8 @@ p {
 
 /* 3. Cores específicas de cada rede social */
 .btn-github {
-    background-color: #0cdf6b;  /* Tom escuro oficial do GitHub */
-    border: 1px solid #3077ce;
+    background-color: #24292e;  /* Tom escuro oficial do GitHub */
+    border: 1px solid #444c56;
 }
 
 .btn-linkedin {
