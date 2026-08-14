@@ -93,3 +93,9 @@ p {
     color: #ffffff;             /* Cor do texto do botão */
     transition: all 0.3s ease;  /* Suaviza a animação de passar o mouse */
 }
+
+/* 3. Cores específicas de cada rede social */
+.btn-github {
+    background-color: #24292e;  /* Tom escuro oficial do GitHub */
+    border: 1px solid #444c56;
+}
