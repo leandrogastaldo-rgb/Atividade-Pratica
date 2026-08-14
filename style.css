@@ -80,3 +80,16 @@ p {
     gap: 12px;                 /* Cria um espaço uniforme de 12px entre os botões */
     margin-top: 16px;          /* Afasta a caixa de botões do texto acima */
 }
+
+
+/* 2. Estilo base padrão de todos os botões */
+.btn {
+    display: inline-block;
+    padding: 8px 20px;          /* Espaçamento interno (8px cima/baixo, 20px laterais) */
+    border-radius: 6px;         /* Arredonda os cantos dos botões */
+    text-decoration: none;      /* Remove o sublinhado padrão dos links */
+    font-weight: 600;           /* Deixa o texto do botão levemente em negrito */
+    font-size: 0.9rem;
+    color: #ffffff;             /* Cor do texto do botão */
+    transition: all 0.3s ease;  /* Suaviza a animação de passar o mouse */
+}
