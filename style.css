@@ -74,38 +74,39 @@ p {
    CONTAINER E BOTÕES DE REDES SOCIAIS
    ========================================== */
 
-/* 1. Alinha os botões lado a lado e centraliza na tela */
 .botoes-container {
-    display: flex;             /* Ativa o Flexbox */
-    justify-content: center;   /* Centraliza os botões horizontalmente */
-    gap: 12px;                 /* Cria um espaço uniforme de 12px entre os botões */
-    margin-top: 16px;          /* Afasta a caixa de botões do texto acima */
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
 }
 
-/* 2. Estilo base padrão de todos os botões */
+/* Estilo base dos botões */
 .btn {
     display: inline-block;
-    padding: 8px 20px;          /* Espaçamento interno (8px cima/baixo, 20px laterais) */
-    border-radius: 6px;         /* Arredonda os cantos dos botões */
-    text-decoration: none;      /* Remove o sublinhado padrão dos links */
-    font-weight: 600;           /* Deixa o texto do botão levemente em negrito */
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
     font-size: 0.9rem;
-    color: #ffffff;             /* Cor do texto do botão */
-    transition: all 0.3s ease;  /* Suaviza a animação de passar o mouse */
+    color: #ffffff;
+    transition: all 0.3s ease;
 }
 
-/* 3. Cores específicas de cada rede social */
+/* GitHub */
 .btn-github {
-    background-color: #24292e;  /* Tom escuro oficial do GitHub */
-    border: 1px solid #444c56;
+    background-color: #24292e;
+    border: 1px solid #24292e;
 }
 
+/* LinkedIn */
 .btn-linkedin {
-    background-color: #0a66c2;  /* Azul oficial do LinkedIn */
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
 }
 
-/* 4. Efeito de interação ao passar o mouse (:hover) */
+/* Efeito ao passar o mouse */
 .btn:hover {
-    transform: translateY(-2px); /* Faz o botão dar uma leve "subidinha" */
-    opacity: 0.9;                /* Dá um leve brilho/transparência ao passar o mouse */
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
