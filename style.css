@@ -99,3 +99,13 @@ p {
     background-color: #24292e;  /* Tom escuro oficial do GitHub */
     border: 1px solid #444c56;
 }
+
+.btn-linkedin {
+    background-color: #0a66c2;  /* Azul oficial do LinkedIn */
+}
+
+/* 4. Efeito de interação ao passar o mouse (:hover) */
+.btn:hover {
+    transform: translateY(-2px); /* Faz o botão dar uma leve "subidinha" */
+    opacity: 0.9;                /* Dá um leve brilho/transparência ao passar o mouse */
+}
